@@ -1,0 +1,30 @@
+    version: '3.8'
+
+    services:
+      sqlserver:
+        image: mcr.microsoft.com/mssql/server:2022-latest
+        container_name: sqlserver
+        environment:
+          - ACCEPT_EULA=Y
+          - SA_PASSWORD=YourStrong@Passw0rd
+        ports:
+          - "1433:1433"
+        networks:
+          - sqlnet
+
+      sqlpad:
+        image: sqlpad/sqlpad
+        container_name: sqlpad
+        environment:
+          - SQLPAD_ADMIN=admin
+          - SQLPAD_ADMIN_PASSWORD=admin123
+        ports:
+          - "3000:3000"
+        networks:
+          - sqlnet
+        depends_on:
+          - sqlserver
+
+    networks:
+      sqlnet:
+        driver: bridge
