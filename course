@@ -1,0 +1,47 @@
+[
+  {
+    "course_id": 1,
+    "course_name": "Database Systems",
+    "credit_hours": 3,
+    "instructor_name": "Dr. Mahmoud Youssef",
+    "student_id": 1,
+    "instructor_id": null,
+    "department_id": null
+  },
+  {
+    "course_id": 2,
+    "course_name": "Web Development",
+    "credit_hours": 4,
+    "instructor_name": "Eng. Salma Adel",
+    "student_id": 2,
+    "instructor_id": null,
+    "department_id": null
+  },
+  {
+    "course_id": 3,
+    "course_name": "Data Analysis",
+    "credit_hours": 3,
+    "instructor_name": "Dr. Hany Fouad",
+    "student_id": 3,
+    "instructor_id": null,
+    "department_id": null
+  },
+  {
+    "course_id": 4,
+    "course_name": "Networks Basics",
+    "credit_hours": 2,
+    "instructor_name": "Eng. Ayman Farid",
+    "student_id": 4,
+    "instructor_id": null,
+    "department_id": null
+  },
+  {
+    "course_id": 5,
+    "course_name": "Software Engineering",
+    "credit_hours": 3,
+    "instructor_name": "Dr. MonaIbrahim",
+    "student_id": 5,
+    "instructor_id": null,
+    "department_id": null
+  }
+]
